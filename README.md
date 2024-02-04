@@ -6,6 +6,7 @@ This project implements a simple chatbot that responds to user inputs based on p
 - Pattern matching for identifying user intent.
 - Basic conversation flow for a natural chatbot experience.
 - Extensible structure for adding new rules and responses.
+
 Project 2: Tic-Tac-Toe AI
 Overview
 This project implements an artificial intelligence (AI) agent that plays the classic game of Tic-Tac-Toe against a human player. The AI utilizes the Minimax algorithm to make optimal moves and ensure an unbeatable performance in Tic-Tac-Toe. This project aims to provide insights into game theory and basic search algorithms.
