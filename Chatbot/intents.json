@@ -1,0 +1,77 @@
+{"intents": [
+  {
+ "tag": "greeting",
+ "patterns": ["Hi", "Hello", "Hey", "Greetings"],
+ "responses": ["Hello! How can I assist you today?", "Hi there! What can I do for you?", "Hey! How can I help you?"]
+ },
+ {
+ "tag": "goodbye",
+ "patterns": ["Goodbye", "See you later", "Bye", "Farewell"],
+ "responses": ["Goodbye! Have a great day!", "See you later! Take care.", "Bye! Feel free to return anytime."]
+ },
+ {
+ "tag": "thanks",
+ "patterns": ["Thank you", "Thanks a lot", "Appreciate it"],
+ "responses": ["You're welcome!", "No problem! If you have more questions, feel free to ask.", "Glad I could help!"]
+ },
+ {
+   "tag": "sentiment_analysis",
+   "patterns": ["How does sentiment analysis work?", "Explain sentiment analysis", "Tell me about sentiment analysis in NLP"],
+   "responses": ["Sentiment analysis in NLP involves determining the sentiment or emotion expressed in a piece of text. It is often used to gauge opinions, feedback, or reactions from users."]
+ },
+ {
+   "tag": "text_classification",
+   "patterns": ["What is text classification?", "Explain text classification in NLP", "How does text classification work?"],
+   "responses": ["Text classification is the process of categorizing text into predefined categories or labels. It is widely used in spam filtering, topic categorization, and sentiment analysis."]
+ },
+ {
+   "tag": "machine_translation",
+   "patterns": ["How does machine translation work?", "Explain machine translation", "Tell me about language translation in NLP"],
+   "responses": ["Machine translation in NLP involves automatically translating text from one language to another. It employs algorithms and models to understand and generate translations."]
+ },
+ {
+   "tag": "named_entity_recognition",
+   "patterns": ["What is named entity recognition?", "Explain NER in NLP", "How does NER work?"],
+   "responses": ["Named Entity Recognition (NER) is a subtask of information extraction that focuses on identifying and classifying entities, such as names, organizations, and locations, in a text."]
+ },
+ {
+   "tag": "syntax_analysis",
+   "patterns": ["What is syntax analysis?", "Explain syntax analysis in NLP", "How does syntax analysis work?"],
+   "responses": ["Syntax analysis, also known as parsing, involves analyzing the grammatical structure of a sentence to understand the relationships between words. It is crucial for language understanding."]
+ },
+
+ {
+   "tag": "intro_nlp",
+   "patterns": ["What is NLP?", "Tell me about Natural Language Processing", "Explain NLP"],
+   "responses": ["Natural Language Processing (NLP) is a field of AI that focuses on the interaction between computers and humans using natural language. It involves tasks like text analysis, language understanding, and language generation."],
+   "context": [""]
+ },
+ {
+   "tag": "nlp_applications",
+   "patterns": ["What are the applications of NLP?", "How is NLP used?", "Give examples of NLP applications"],
+   "responses": ["NLP is used in various applications such as sentiment analysis, language translation, chatbots, and text summarization. It plays a crucial role in enhancing human-computer communication."],
+   "context": [""]
+ },
+ {
+   "tag": "tokenization",
+   "patterns": ["Explain tokenization", "What is tokenization in NLP?", "How does tokenization work?"],
+   "responses": ["Tokenization is the process of breaking down a text into smaller units called tokens. These tokens can be words, phrases, or other meaningful elements. It is a fundamental step in NLP for text analysis."],
+   "context": [""]
+ },
+ {
+   "tag": "tokenization",
+   "patterns": ["Explain tokenization", "What is tokenization in NLP?", "How does tokenization work?"],
+   "responses": ["Tokenization is the process of breaking down a text into smaller units called tokens. These tokens can be words, phrases, or other meaningful elements. It is a fundamental step in NLP for text analysis."]
+ },
+ {
+   "tag": "entity_recognition",
+   "patterns": ["What is entity recognition?", "Explain entity recognition in NLP", "How does entity recognition work?"],
+   "responses": ["Entity recognition, also known as named entity recognition (NER), involves identifying and classifying entities such as names, locations, and dates in a text. It helps extract valuable information from unstructured data."]
+ },
+ {
+   "tag": "word_embedding",
+   "patterns": ["What are word embeddings?", "Explain word embeddings in NLP", "How do word embeddings work?"],
+   "responses": ["Word embeddings are vector representations of words in a continuous vector space. They capture semantic relationships between words, allowing algorithms to understand the context and meaning of words in natural language."]
+ }
+]
+}
